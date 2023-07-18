@@ -24,12 +24,19 @@
 
 <a href="https://www.python.org" target="_blank"> <img align="left" alt="Python" width="26px" src="https://github.com/Aakarsh-B/trying-repos/blob/master/python-5.svg?raw=true"/> </a>
 
-  <a href="https://www.w3.org/html/" target="_blank"><img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" /></a>
+  <a href="https://www.w3.org/html/" target="_blank"><img align="left" alt="pyspark" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" /></a>
+    <a href="https://www.w3.org/html/" target="_blank"><img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" /></a>
+<a href="https://www.w3.org/html/" target="_blank"><img align="left" alt="HTML5" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" /></a>
+    
 <a href="https://www.w3schools.com/sql/" target="_blank"><img align="left" alt="CSS3" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" /></a> <br><br>
   <a href="https://airflow.apache.org/docs/" target="_blank"><img align="left" alt="airflow" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png" /></a> 
-<a href="https://www.aws.com/" target="_blank"><img align="left" alt="AWS" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" /></a>  
+<a href="https://www.aws.com/" target="_blank"><img align="left" alt="AWS" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" />
 <a href="https://www.linux.org/" target="_blank"><img align="left" alt="linux" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" /></a> 
-<a href="https://www.docker.com/" target="_blank"><img align="left" alt="docker" width="26px" src="https://camo.githubusercontent.com/cbd55750b53c01dc18830d377c7364b01077e8a675a79d454a3f1ea549efe129/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f646f636b65722f646f636b65722d6f726967696e616c2e737667" /> </a>  
+<a href="https://www.docker.com/" target="_blank"><img align="left" alt="docker" width="26px" src="https://camo.githubusercontent.com/cbd55750b53c01dc18830d377c7364b01077e8a675a79d454a3f1ea549efe129/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f646f636b65722f646f636b65722d6f726967696e616c2e737667" /> 
+<a href="https://www.aws.com/" target="_blank"><img align="left" alt="terraform" width="26px" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_terraform_icon_130125.png" /> </a>  
+
+
+
 
 <br />
  
