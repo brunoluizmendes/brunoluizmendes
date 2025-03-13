@@ -1,6 +1,6 @@
 
 # Bruno Luiz Mendes 
-### _"Turning ideas into lines of code and data into solutions."_  
+### _"Transforming ideas into code and data into impactful solutions."_  
 
 <p align="center">
   <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/static/v1?label=Python&message=Always&color=success"></a>
@@ -9,37 +9,53 @@
   <a href="https://brunoluizmendes.medium.com" target="_blank"><img src="https://img.shields.io/badge/-Medium-black?style=flat-square&logo=medium"></a>
 </p>
 
----
+```
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
 
-### 🚀 Areas of Interest:
-- 📊 **Business and Investment Analysis**
-- 📚 **Educational Projects**
-- 🏃‍♂️ **Deep Learning for Athlete Performance**
+class DataEngineer:
+    def __init__(self, data, indent=0):
+        self.data = data
+        self.indent = indent
 
----
+    def __print(self, value, indent, color=''):
+        return f'\033[{color}m' + '\t' * indent + str(value) + '\033[0m\n'
 
-### ⚙️ Languages and Tools:
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" alt="PySpark" width="40" height="40"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" alt="PostgreSQL" width="40" height="40"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png" alt="Apache Airflow" width="40" height="40"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" alt="Pandas" width="40" height="40"/>
-  <img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_terraform_icon_130125.png" alt="Terraform" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS" width="40" height="40"/>
-</p>
+    def __beautiful_print(self, data, indent):
+        to_str = ''
+        for key, value in data.items():
+            if isinstance(value, dict):
+                to_str += self.__print(f'\033[1m{key.upper()}\033[0m', indent, '34')  # Blue for section headers
+                to_str += self.__beautiful_print(value, indent + 1)
+            elif isinstance(value, list):
+                to_str += self.__print(f'{key.upper()}:', indent, '33')  # Yellow for lists
+                for item in value:
+                    to_str += self.__print(f'- {item}', indent + 1, '32')  # Green for items in lists
+            elif isinstance(value, tuple):
+                to_str += self.__print(f'{key.upper()}: {value[0]}° N, {value[1]}° W', indent, '36')  # Cyan for coordinates
+            else:
+                to_str += self.__print(f'{key.upper()}: {value}', indent, '37')  # White for normal text
+        return to_str
 
----
+    def __str__(self):
+        return self.__beautiful_print(self.data, self.indent)
 
-### 🌐 Links:
-- [Portfolio](https://blmendes.github.io)  
-- [Medium](https://brunoluizmendes.medium.com)  
-- [LinkedIn](https://www.linkedin.com/in/brunoluizmendes/)
-- [GitHub](https://github.com/blmendes)
+if __name__ == '__main__':
+    data = dict(
+        name='Bruno Mendes',
+        role='Data Engineer',
+        location=(-23.550520, -46.633308),  # São Paulo coordinates
+        code=['Python', 'SQL', 'Go'],
+        technologies=dict(
+            backEnd=['Django', 'Flask', 'FastAPI', 'Apache Iceberg', 'Spark', 'CDC', 'Kafka', 'Kinesis', 'BigQuery', 'Pub/Sub', 'Lambda', 'EMR'],
+            dataInfra=['Amazon Athena', 'Apache Kinesis', 'PostgreSQL'],
+            devOps=['AWS', 'Docker', 'Serverless'],
+            databases=['PostgreSQL', 'DynamoDB', 'S3', 'SQL Server', 'MongoDB', 'Neptune'],
+            analytics=['Google Analytics', 'Looker', 'Metabase'],
+            misc=['GraphQL', 'REST APIs', 'Unit Testing', 'CI/CD', 'Agile', 'ETL', 'Data Lakes', 'Data Warehousing', 'Airflow', 'Batch Processing']
+        )
+    )
+    bruno_mendes = DataEngineer(data)
+    print(bruno_mendes)
 
----
-
-### 💡 Contributions and Support:
-- Got an idea or want to collaborate? Check out [my contribution guidelines](CONTRIBUTING.md).  
-- Like my work? [Buy me a coffee ☕](https://www.buymeacoffee.com/brunoluizmendes)
+```
