@@ -1,8 +1,8 @@
 
 # Bruno Luiz Mendes 
-### _"Transforming ideas into code and data into impactful solutions."_  
+ _"Transforming ideas into code and data into impactful solutions."_  
 
-<p align="center">
+<p align="left">
   <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/static/v1?label=Python&message=Always&color=success"></a>
   <a href="https://www.linkedin.com/in/brunoluizmendes/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white"></a>
   <a href="https://github.com/blmendes" target="_blank"><img src="https://img.shields.io/github/followers/blmendes?label=Follow&style=social"></a>
@@ -45,14 +45,13 @@ if __name__ == '__main__':
         name='Bruno Mendes',
         role='Data Engineer',
         location=(-23.550520, -46.633308),  # São Paulo coordinates
-        code=['Python', 'SQL', 'Go'],
+        code=['Python', 'SQL', 'GO'],
         technologies=dict(
-            backEnd=['Django', 'Flask', 'FastAPI', 'Apache Iceberg', 'Spark', 'CDC', 'Kafka', 'Kinesis', 'BigQuery', 'Pub/Sub', 'Lambda', 'EMR'],
-            dataInfra=['Amazon Athena', 'Apache Kinesis', 'PostgreSQL'],
-            devOps=['AWS', 'Docker', 'Serverless'],
-            databases=['PostgreSQL', 'DynamoDB', 'S3', 'SQL Server', 'MongoDB', 'Neptune'],
+            dataInfra=['Apache Iceberg', 'Spark', 'CDC', 'Kafka', 'Pub/Sub', 'AWS Lambda', 'EMR', 'AWS Glue', 'AWS Kinesis', 'Apache Airflow'],
+            devOps=['AWS', 'Docker'],
+            databases=['PostgreSQL', 'DynamoDB', 'S3', 'SQL Server', 'MongoDB', 'Neptune','BigQuery' , 'Amazon Athena', 'Amazon Redshift', 'ClickHouse'],
             analytics=['Google Analytics', 'Looker', 'Metabase'],
-            misc=['GraphQL', 'REST APIs', 'Unit Testing', 'CI/CD', 'Agile', 'ETL', 'Data Lakes', 'Data Warehousing', 'Airflow', 'Batch Processing']
+            misc=['GraphQL', 'REST APIs', 'Unit Testing', 'CI/CD', 'Agile', 'ETL', 'Data Lakes', 'Data Warehousing', 'Airflow', 'Batch Processing', 'Streaming Processing']
         )
     )
     bruno_mendes = DataEngineer(data)
